@@ -1,8 +1,8 @@
 # API
 
-Backend for blogGatsbyJS made with [strapi](https://strapi.io) 3.0.0@alpha.
+Backend for jamstack-gatsby made with [strapi](https://strapi.io) 3.0.0@alpha.
 
-The demo blog comes with a content type *blog*, the picture-entity is a representation of the media type that strapi ships with.
+This jamstack introduction comes with a content type *blog*, the picture-entity is a representation of the media type that strapi ships with.
 
 ## Interfaces
 
