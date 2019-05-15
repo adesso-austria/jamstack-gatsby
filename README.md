@@ -1,6 +1,6 @@
-# blogGatsbyJS - my personal blog
+# JamStack-Gatsby
 
-This is the source code to my personal blog. Powered by [gatsby](https://gatsbyjs.org).
+This codebase should give you an overlook of what the **jamstack** is all about. It is powered by [gatsby](https://gatsbyjs.org) and [strapi](https://strapi.io). To get more knowledge about the *api* (strapi) have a look at the README.md inside the /api directory.
 
 ## How to run/develop/build
 
@@ -32,8 +32,4 @@ clear && yarn run build
 
 ## Libraries/Frameworks used
 
-As long as this blog is in development refer to **package.json** for information on libraries.
-
-## Author
-
-Dominik Dorfstetter © 2019
+As long as this blog is in active development refer to **package.json** for information on libraries.
