@@ -1,10 +1,8 @@
 # JamStack-Gatsby
 
-This codebase should give you an overlook of what the **jamstack** is all about. It is powered by [gatsby](https://gatsbyjs.org) and [strapi](https://strapi.io). To get more knowledge about the *api* (strapi) have a look at the README.md inside the /api directory.
-
 ## Introduction
 
-As preparation for a tech talk hosted by adesso Austria, this gatsbyjs project represents a blog backed up by a headless CMS system. It should give developers familiar with NodeJS-powered frameworks an overlook about what the **JamStack** can do.
+As preparation for a tech talk hosted by adesso Austria, this gatsbyjs project represents a blog backed up by a headless CMS system. It should give developers familiar with NodeJS-powered frameworks an overlook about what the **JamStack** can do. It is powered by [gatsby](https://gatsbyjs.org) and [strapi](https://strapi.io). To get deeper insight about the *api* (strapi) have a look at the README.md inside the /api directory.
 
 ## How to run/develop/build
 
