@@ -4,7 +4,7 @@
 
 This is a german introduction to JamStack. The information provided was partly translated from the official website of [jamstack](https://jamstack.org), other parts were written by me.
 
-Das ist eine Einführung in den JamStack. Die Informationen die du hier liest wurden teilweise aus dem Englischen übersetzt und finden sich auf der offiziellen Webseite von [jamstack](https://jamstack.org).
+Das ist eine Einführung in den JamStack. Die Informationen die du hier liest wurden teilweise aus dem Englischen übersetzt und finden sich auf der offiziellen Webseite von [jamstack](https://jamstack.org), andere Teile dieses Textes wurden von mir erstellt.
 
 ## Einführung
 
