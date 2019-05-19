@@ -1,0 +1,32 @@
+$font_standard: 'Open Sans';
+$font_menu: 'Open Sans Condensed';
+
+html {
+   font-family: $font_standard;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+body {
+   margin: 0;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+   padding: 2rem;
+   font-family: $font_menu;
+   
+   ul {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      li {
+         list-style: none;
+         a {
+            text-decoration: none;
+         }
+      }
+   }
+}

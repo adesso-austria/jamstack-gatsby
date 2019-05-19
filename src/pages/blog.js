@@ -1,9 +1,9 @@
 import React from "react"
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 const BlogPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>Headline for blog</h1>
       <p>
         Trump Ipsum is calling for a total and complete shutdown of Muslim text
@@ -40,8 +40,7 @@ const BlogPage = () => {
         expected. All of the words in Lorem Ipsum have flirted with me -
         consciously or unconsciously. That's to be expected.
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

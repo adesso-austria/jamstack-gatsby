@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from 'gatsby'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>This is the headline for the about page</h1>
       <hr />
       <p>
-        Want to reach out to <Link to="/contact">me?</Link> 
+        Want to reach out to <Link to="/contact">me?</Link>
       </p>
       <p>
         He’s not a word hero. He’s a word hero because he was captured. I like
@@ -33,8 +33,7 @@ const AboutPage = () => {
         Hispanics! An 'extremely credible source' has called my office and told
         me that Lorem Ipsum's birth certificate is a fraud.
       </p>
-      <Footer/>
-    </div>
+    </Layout>
   )
 }
 

@@ -1,0 +1,11 @@
+.listTitle {
+  color: #333740;
+  font-family: Lato;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+/*# sourceMappingURL=styles.css.map */
