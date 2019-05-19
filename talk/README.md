@@ -14,24 +14,6 @@ Der JamStack ist eine moderne Web-Entwicklungs-Architektur basierend auf JavaScr
 
 Wenn wir heute über einen Stack sprechen, dann meinen wir nicht mehr ein Betriebssystem, spezifische Web-Server, Programmiersprachen im Backend oder Datenbanken. Wir sprechen über Methoden die uns in Summe gezielt zu einer Lösung führen.
 
-## Vorteile für Entwickler
-
-### Billigere, einfachere Skalierung
-
-Wenn dein Projekt einen Stapel von Dateien umfasst, die überall bereitgestellt werden können, müssen diese Dateien bei der Skalierung an mehreren Stellen bereitgestellt werden. CDNs sind hierfür perfekt geeignet und enthalten häufig Möglichkeiten einer Skalierung.
-
-### Bessere Entwicklungserfahrung
-
-Die lose Kopplung und Trennung von Steuerelementen ermöglicht eine gezieltere Entwicklung und Fehlerbehebung, und die wachsende Auswahl an CMS-Optionen für Site-Generatoren macht die Verwaltung eines separaten Stacks für Inhalte und Marketing überflüssig. In unserem Live-Coding Beispiel verwenden wir dafür strapi.
-
-### Höhere Security
-
-Durch die Abstraktion serverseitiger Prozesse in MicroService-APIs wird die Angriffsfläche reduziert. Du kannst auch die Domain-Expertise spezialisierter Drittanbieter-Services nutzen.
-
-### Bessere Performance
-
-Warum sollten du warten bis deine Seiten generiert wurden, wenn du sie zur Bereitstellungszeit generieren kannst? Wenn es darum geht, die Zeit bis zum ersten Byte zu minimieren, geht nichts über vorgefertigte Dateien, die über ein CDN bereitgestellt werden.
-
 ## Kriterien
 
 ### Welche Kriterien muss ein JamStack Projekt erfüllen?
@@ -77,3 +59,21 @@ Da das JamStack-Markup vorkonfiguriert ist, werden Inhaltsänderungen erst nach 
 ### Atomare Bereitstellungen
 
 Da JamStack-Projekte sehr umfangreich werden, müssen für neue Änderungen möglicherweise Hunderte von Dateien erneut bereitgestellt werden. Das Hochladen dieser Dateien nacheinander kann zu einem inkonsistenten Status führen, bis der Vorgang abgeschlossen ist. Du kannst dies mit einem System vermeiden mit dem du "atomare Bereitstellungen" durchführen kannst, bei denen keine Änderungen live geschaltet werden, bis alle geänderten Dateien hochgeladen wurden.
+
+## Vorteile für Entwickler
+
+### Billigere, einfachere Skalierung
+
+Wenn dein Projekt einen Stapel von Dateien umfasst, die überall bereitgestellt werden können, müssen diese Dateien bei der Skalierung an mehreren Stellen bereitgestellt werden. CDNs sind hierfür perfekt geeignet und enthalten häufig Möglichkeiten einer Skalierung.
+
+### Bessere Entwicklungserfahrung
+
+Die lose Kopplung und Trennung von Steuerelementen ermöglicht eine gezieltere Entwicklung und Fehlerbehebung, und die wachsende Auswahl an CMS-Optionen für Site-Generatoren macht die Verwaltung eines separaten Stacks für Inhalte und Marketing überflüssig. In unserem Live-Coding Beispiel verwenden wir dafür strapi.
+
+### Höhere Security
+
+Durch die Abstraktion serverseitiger Prozesse in MicroService-APIs wird die Angriffsfläche reduziert. Du kannst auch die Domain-Expertise spezialisierter Drittanbieter-Services nutzen.
+
+### Bessere Performance
+
+Warum sollten du warten bis deine Seiten generiert wurden, wenn du sie zur Bereitstellungszeit generieren kannst? Wenn es darum geht, die Zeit bis zum ersten Byte zu minimieren, geht nichts über vorgefertigte Dateien, die über ein CDN bereitgestellt werden.
