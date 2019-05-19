@@ -10,7 +10,7 @@ Das ist eine Einführung in den JamStack. Die Informationen die du hier liest wu
 
 Der JamStack ist eine moderne Web-Entwicklungs-Architektur basierend auf JavaScript (welches auf dem Client läuft), wiederverwendbaren APIs und bereits vorhandenem Markup.
 
-### Was ist ein Stack
+### Was ist ein Stack?
 
 Wenn wir heute über einen Stack sprechen, dann meinen wir nicht mehr ein Betriebssystem, spezifische Web-Server, Programmiersprachen im Backend oder Datenbanken. Wir sprechen über Methoden die uns in Summe gezielt zu einer Lösung führen.
 
