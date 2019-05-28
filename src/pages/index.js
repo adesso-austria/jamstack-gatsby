@@ -5,10 +5,13 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>My personal blog</h1>
-      <h2> Welcome traveler, I see you stumbled upon my humble blog.</h2>
+      <h1>JamStack GatsbyJS Starter</h1>
       <p>
-        Do you want to <Link to="/contact">contact me?</Link>
+        GatsbyJS starter was developed in preperation for a talk hosted by adesso Austria GmbH.
+        <br/><br/>
+        For a brief introduction to its features visit <Link to="/about">About</Link>.
+        <hr/>
+        Do you want to contact <Link to="/contact"> me?</Link>
       </p>
     </Layout>
   )

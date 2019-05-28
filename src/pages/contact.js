@@ -22,9 +22,9 @@ const ContactPage = () => {
     <Layout>
       <h1>Contact me</h1>
       <p>
-        There are many roads that lead to rome, but only 1 to my <a href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">
-          twitter.
-        </a>
+        There are many roads that lead to rome, but only one to my <a href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">
+          twitter
+        </a> profile.
       </p>
     </Layout>
   )

@@ -24,7 +24,7 @@ clear && yarn install
 ### Develop
 
 ```shell
-clear && yarn run develop
+clear && yarn start
 ```
 
 ### Build
@@ -35,4 +35,38 @@ clear && yarn run build
 
 ## Libraries/Frameworks used
 
-As long as this blog is in active development refer to **package.json** for information on libraries.
+### Gatsbyjs specific plugins
+
+- gatsby-source-filesystem
+
+... to source content from your local filesystem
+
+- gatsby-plugin-sass
+
+... to natively use *sass*/*scss*
+
+- gatsby-transformer-remark
+
+... to transform your Markdown content into html
+
+- gatsby-source-instagram
+
+... to fetch instagram posts
+
+- gatsby-plugin-sharp
+
+... to fetch images in a custom resolution
+
+- gatsby-transformer-sharp
+  
+... to transform the image depending on screen-size (and many more options)
+
+### Other libraries
+
+- gatsby-image
+
+Provides an **Img** tag we use for our scaled images
+
+- node-sass
+
+The node sass parser
