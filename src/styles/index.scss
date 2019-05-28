@@ -1,0 +1,130 @@
+$font_standard: 'Open Sans';
+$font_menu: 'Open Sans Condensed';
+$brand_color: #0071b9;
+$accent_color: black;
+
+html {
+   font-family: $font_standard;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+body {
+   height: 100%;
+   margin: 0;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+   background-color: $brand_color;
+   padding: 2rem;
+   height: 100%;
+   font-family: $font_menu;
+
+   ul {
+      display: flex;
+      max-width: 500px;
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      margin: auto;
+
+      li {
+         list-style: none;
+
+         a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+
+            &:hover {
+              border-bottom: 2px solid white;
+            }
+
+            &.active {
+               border-bottom: 2px solid $accent_color;
+               color: $accent_color;
+            }
+         }
+      }
+   }
+}
+
+.page_wrapper {
+   min-height: 90vh;
+   padding-top: 2rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   padding-bottom: 4rem;
+   text-align: justify;
+   max-width: 900px;
+   margin: auto;
+   margin-bottom: -50px !important;
+
+   h1 {
+      text-align: center;
+      margin-block-end: 0;
+      margin-block-start: 0;
+   }
+
+   p {
+      line-height: 1.5em;
+   }
+
+   a {
+      text-decoration: none;
+      color: $accent_color;
+      font-weight: 800;
+      border-bottom: 2px solid $accent_color;
+
+      &:hover {
+         color: $brand_color;
+         border-bottom: 2px solid $brand_color;
+      }
+   }
+
+   ul {
+      list-style-type: none;
+   }
+}
+
+footer {
+   background: $brand_color;
+   max-height: 50px;
+   text-align: center;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   line-height: 50px;
+   color: white;
+   font-size: 0.65em;
+
+   p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+   }
+}
+
+header {
+   min-height: 10vh;
+}
+
+.stories_gallery {
+   display: flex;
+   min-width: 100%;
+   flex-flow: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: auto;
+
+   .gatsby-image-wrapper {
+      margin-bottom: 10px;
+   }
+}
