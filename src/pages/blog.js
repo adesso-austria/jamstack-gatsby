@@ -29,7 +29,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <h1>Local entries in /posts ({postCount})</h1>
+      <h1>Markdown in /posts ({postCount})</h1>
       <ul>
         {
           posts.map((elements) => {

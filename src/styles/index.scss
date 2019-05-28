@@ -115,3 +115,16 @@ footer {
 header {
    min-height: 10vh;
 }
+
+.stories_gallery {
+   display: flex;
+   min-width: 100%;
+   flex-flow: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: auto;
+
+   .gatsby-image-wrapper {
+      margin-bottom: 10px;
+   }
+}

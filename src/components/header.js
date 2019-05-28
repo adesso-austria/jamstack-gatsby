@@ -16,6 +16,9 @@ const Header = () => {
                   <Link activeClassName="active" to="/about">About</Link>
                </li>
                <li>
+                  <Link activeClassName="active" to="/stories">Stories</Link>
+               </li>
+               <li>
                   <Link activeClassName="active" to="/contact">Contact</Link>
                </li>
             </ul>

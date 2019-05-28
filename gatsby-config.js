@@ -31,6 +31,21 @@ module.exports = {
            // Plugins configs
            plugins: [],
          }
-      }
+      },
+      {
+         resolve: `gatsby-source-instagram`,
+         options: {
+            username: `adesso_ag`,
+          },
+      },
+      {
+         resolve: `gatsby-plugin-sharp`,
+         options: {
+           useMozJpeg: false,
+           stripMetadata: true,
+           defaultQuality: 75,
+         }
+      },
+      'gatsby-transformer-sharp'
    ]
 }
