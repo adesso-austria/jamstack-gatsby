@@ -39,6 +39,7 @@ nav {
 
       li {
          list-style: none;
+
          a {
             text-decoration: none;
             color: white;
@@ -84,11 +85,6 @@ nav {
       font-weight: 800;
       border-bottom: 2px solid $accent_color;
 
-      /*&:visited {
-         color: lighten($brand_color, 20%);
-         border-bottom: 1.5px solid lighten($brand_color, 20%);
-      }*/
-
       &:hover {
          color: $brand_color;
          border-bottom: 2px solid $brand_color;
@@ -97,10 +93,6 @@ nav {
 
    ul {
       list-style-type: none;
-      
-      li {
-
-      }
    }
 }
 

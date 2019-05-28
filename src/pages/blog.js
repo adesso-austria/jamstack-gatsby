@@ -15,6 +15,9 @@ const BlogPage = () => {
             author
             date
           }
+          fields {
+            slug
+          }
         }
       }
     }
@@ -39,7 +42,7 @@ const BlogPage = () => {
                 <small><b>Date:</b> { blog_post.frontmatter.date }</small>
                 <br/>
                 <br/>
-                <Link to="">read more..</Link>
+                <Link to={ `blog/${blog_post.fields.slug}` }>read more..</Link>
                 <br/>
                 <br/>
                 <hr/>
