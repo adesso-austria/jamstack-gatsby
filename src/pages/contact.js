@@ -20,7 +20,10 @@ const ContactPage = () => {
 
   return (
     <Layout>
-      <h1>Contact me</h1>
+      <h1>Contact us</h1>
+      <p>
+        Business. People. Technology. Visit <a href="https://adesso.at" target="_blank">adesso Austria</a>.
+      </p>
       <p>
         There are many roads that lead to rome, but only one to my <a href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">
           twitter
