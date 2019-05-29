@@ -13,7 +13,6 @@ You need the following tools installed on your system.
 - nodeJS [>= 10.15.3]
 - gatsby-cli [>= 2.5.12]
 - strapi [>= 3.0.0]
-- yarn [>= 1.15.2]
 
 ### Setup
 
