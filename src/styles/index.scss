@@ -1,5 +1,6 @@
-$font_standard: 'Open Sans';
-$font_menu: 'Open Sans Condensed';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
+$font_standard: 'Open Sans', sans-serif;
+$font_menu: 'Open Sans Condensed', sans-serif;
 $brand_color: #0071b9;
 $accent_color: black;
 
