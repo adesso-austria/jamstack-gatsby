@@ -1,12 +1,16 @@
 module.exports = {
    siteMetadata: {
-      title: 'adesso Gatsby Starter',
+      title: 'adesso - the great Gatsby',
+      titleTemplate: "%s · 2019",
       author: 'Dominik Dorfstetter',
       company: 'adesso Austria GmbH',
       year: 2019,
       socialLinks: {
          twitter: 'https://twitter.com/dorfstetter_d'
-      }
+      },
+      description:
+      "This is a starter template for GatsbyJS. Business. People. Technology. adesso Austria",
+      url: "https://www.adesso.at", // No trailing slash allowed!
    },
    plugins: [
       'gatsby-plugin-sass',
