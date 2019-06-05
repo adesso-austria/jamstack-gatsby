@@ -7,7 +7,7 @@ const IndexPage = () => {
     <Layout>
       <h1>JamStack GatsbyJS Starter</h1>
       <p>
-        GatsbyJS starter was developed in preperation for a talk hosted by <a href="https://adesso.at" target="_blank">adesso Austria GmbH</a>.
+        GatsbyJS starter was developed in preperation for a talk hosted by <a href="https://adesso.at" rel="noopener noreferrer" target="_blank">adesso Austria GmbH</a>.
         <br/><br/>
         For a brief introduction to its features visit <Link to="/about">About</Link>.
         <hr/>

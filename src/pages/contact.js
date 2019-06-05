@@ -22,7 +22,7 @@ const ContactPage = () => {
     <Layout>
       <h1>Contact us</h1>
       <p>
-        Business. People. Technology. Visit <a href="https://adesso.at" target="_blank">adesso Austria</a>.
+        Business. People. Technology. Visit <a href="https://adesso.at" rel="noopener noreferrer" target="_blank">adesso Austria</a>.
       </p>
       <p>
         There are many roads that lead to rome, but only one to my <a href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">

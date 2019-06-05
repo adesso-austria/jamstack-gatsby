@@ -1,17 +1,21 @@
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
+import SEO from './seo'
 import '../styles/index.scss'
 
-const Layout = (props) => {
+const Layout = ({ location, children }) => {
+   console.log(location);
    return (
-      <div>
+      <>
+         <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
          <Header/>
          <div class="page_wrapper">
-            { props.children }
+            { children }
          </div>
          <Footer/>
-      </div>
+         <div id="scrollToTop"></div>
+      </>
    )
 }
 

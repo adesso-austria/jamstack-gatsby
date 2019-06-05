@@ -1,4 +1,8 @@
+/*
+   Google Fonts
+*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
+
 $font_standard: 'Open Sans', sans-serif;
 $font_menu: 'Open Sans Condensed', sans-serif;
 $brand_color: #0071b9;
@@ -22,6 +26,7 @@ nav {
    padding: 2rem;
    height: 100%;
    font-family: $font_menu;
+   font-weight: 900;
 
    ul {
       display: flex;
@@ -78,6 +83,10 @@ nav {
 
    p {
       line-height: 1.5em;
+
+      a {
+         font-weight: 800;
+      }
    }
 
    a {
