@@ -3,6 +3,7 @@ module.exports = {
       title: 'adesso - the great Gatsby',
       titleTemplate: "%s · 2019",
       author: 'Dominik Dorfstetter',
+      siteUrl: `https://adesso-js-gatsby.netlify.com/`,
       company: 'adesso Austria GmbH',
       year: 2019,
       socialLinks: {
