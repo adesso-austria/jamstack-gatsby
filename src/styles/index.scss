@@ -108,7 +108,17 @@ nav {
    }
 
    ul {
-      list-style-type: none;
+      list-style-type: none;  
+      margin-block-end: 0;
+      margin-block-start: 0;
+      padding-block-start: 0;
+      padding-block-end: 0;
+      margin-left: -1rem;
+
+      hr {
+         width: 100%;
+         margin-left: -1rem;
+      }
    }
 }
 
@@ -144,7 +154,7 @@ header {
       width: 180px;
       height: 180px;
       flex: 1 1 auto;
-      margin:5px;
+      margin: 5px;
 
       img {
          background-position: center;
