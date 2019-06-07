@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>JamStack GatsbyJS Starter</h1>
+      <h1>gatsbyJS Starter</h1>
       <p>
         GatsbyJS starter was developed in preperation for a talk hosted by <a href="https://adesso.at" rel="noopener noreferrer" target="_blank">adesso Austria GmbH</a>.
         <br/><br/>
