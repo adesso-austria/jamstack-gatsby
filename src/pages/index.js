@@ -12,7 +12,7 @@ const IndexPage = () => {
         <br/><br/>
         For a brief introduction to its features visit <Link to="/about">About</Link>.
         <br/><br/>
-        <small>Do you want to contact <Link to="/contact"> me?</Link></small>
+        <small>Do you want to contact <Link to="/contact"> us?</Link></small>
       </p>
     </Layout>
   )

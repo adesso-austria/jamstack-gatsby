@@ -7,19 +7,19 @@ const Header = () => {
          <nav>
             <ul>
                <li>
-                  <Link activeClassName="active" to="/">Home</Link>
+                  <Link activeClassName="active" to="/">HOME</Link>
                </li>
                <li>
-                  <Link activeClassName="active" to="/about">About</Link>
+                  <Link activeClassName="active" to="/about">ABOUT</Link>
                </li>
                <li>
-                  <Link activeClassName="active" to="/blog">Blog</Link>
+                  <Link activeClassName="active" to="/blog">BLOG</Link>
                </li>
                <li>
-                  <Link activeClassName="active" to="/stories">Stories</Link>
+                  <Link activeClassName="active" to="/stories">STORIES</Link>
                </li>
                <li>
-                  <Link activeClassName="active" to="/contact">Contact</Link>
+                  <Link activeClassName="active" to="/contact">CONTACT</Link>
                </li>
             </ul>
          </nav>

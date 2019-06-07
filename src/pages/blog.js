@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/layout'
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 
 const BlogPage = () => {
   const pageQuery = useStaticQuery(graphql`
@@ -43,7 +43,7 @@ const BlogPage = () => {
                 <small><b>Date:</b> { blog_post.frontmatter.date }</small>
                 <br/>
                 <br/>
-                <a href={ `blog/${blog_post.fields.slug}` }>read more..</a>
+                <Link to={ `blog/${blog_post.fields.slug}` }>read more..</Link>
                 <br/>
                 <br/>
                 <hr/>
