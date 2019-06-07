@@ -29,7 +29,8 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <h1>Markdown in /posts ({postCount})</h1>
+      <h1>/posts ({postCount})</h1>
+      <hr/>
       <ul>
         {
           posts.map((elements) => {
