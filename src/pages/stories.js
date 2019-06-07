@@ -9,6 +9,7 @@ const Stories = () => {
             allInstaNode {
                 edges {
                     node {
+                        id
                         username
                         caption
                         likes
@@ -30,12 +31,13 @@ const Stories = () => {
     return (
         <Layout>
             <h1>Stories from <i>@{ stories[0].node.username }</i></h1>
+            <hr/>
             <br/>
-            <div class="stories_gallery">
+            <div className="stories_gallery">
                 {
                     stories.map((storie) => 
                         (
-                            <Img fixed={storie.node.localFile.childImageSharp.fixed} /> 
+                            <Img key={storie.node.id} fixed={storie.node.localFile.childImageSharp.fixed} /> 
                         )
                     )
                 }

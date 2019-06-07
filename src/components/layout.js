@@ -10,7 +10,7 @@ const Layout = ({ location, children }) => {
       <>
          <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
          <Header/>
-         <div class="page_wrapper">
+         <div className="page_wrapper">
             { children }
          </div>
          <Footer/>

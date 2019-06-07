@@ -13,6 +13,7 @@ module.exports = {
       url: "https://www.adesso.at", // No trailing slash allowed!
    },
    plugins: [
+      'gatsby-plugin-sitemap',
       'gatsby-plugin-sass',
       {
          resolve: 'gatsby-source-filesystem',

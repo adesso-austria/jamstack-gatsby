@@ -72,9 +72,7 @@ SEO.propTypes = {
     image: PropTypes.string,
     pathname: PropTypes.string,
     article: PropTypes.bool,
-    sociallinks: {
-        twitter: PropTypes.string
-    }
+    twitter: PropTypes.string
 }
 
 SEO.defaultProps = {

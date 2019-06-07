@@ -23,20 +23,8 @@ body {
    -moz-osx-font-smoothing: grayscale;
 }
 
-@media only screen and (max-width: 600px) {
-   nav {
-      padding-left: 0.5rem !important;
-      padding-right: 0.5rem !important;
-
-      ul {
-         padding-left: 0.5rem;
-         padding-right: 0.5rem;
-
-         li {
-            margin-bottom: 10px;
-         }
-      }
-   }
+.burger_menu {
+   color: white;
 }
 
 nav {
@@ -153,6 +141,36 @@ header {
    margin: auto;
 
    .gatsby-image-wrapper {
-      margin-bottom: 10px;
+      width: 180px;
+      height: 180px;
+      flex: 1 1 auto;
+      margin:5px;
+
+      img {
+         background-position: center;
+         background-size: contain;
+      }
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   nav {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+
+      ul {
+         padding-left: 0.5rem;
+         padding-right: 0.5rem;
+
+         li {
+            margin-bottom: 10px;
+         }
+      }
+   }
+
+   .page_wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      text-align: justify;
    }
 }

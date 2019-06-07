@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/layout'
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 const BlogPage = () => {
   const pageQuery = useStaticQuery(graphql`
@@ -36,13 +36,13 @@ const BlogPage = () => {
             const blog_post = elements.node
 
             return (
-              <li>
+              <li key={blog_post.fields.slug}>
                 <h2>{ blog_post.frontmatter.title.toUpperCase() }</h2>
                 <small><b>Author:</b> { blog_post.frontmatter.author }</small><br/>
                 <small><b>Date:</b> { blog_post.frontmatter.date }</small>
                 <br/>
                 <br/>
-                <Link to={ `blog/${blog_post.fields.slug}` }>read more..</Link>
+                <a href={ `blog/${blog_post.fields.slug}` }>read more..</a>
                 <br/>
                 <br/>
                 <hr/>
