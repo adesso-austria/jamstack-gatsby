@@ -20,7 +20,7 @@ const ContactPage = () => {
 
   return (
     <Layout>
-      <h1>Contact us</h1>
+      <h1>{"Contact us".toUpperCase()}</h1>
       <hr/>
       <p>
         Business. People. Technology. Visit <a href="https://adesso.at" rel="noopener noreferrer" target="_blank">adesso Austria</a>.

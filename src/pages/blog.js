@@ -29,7 +29,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <h1>/posts ({postCount})</h1>
+      <h1>{`posts (${postCount})`.toUpperCase()}</h1>
       <hr/>
       <ul>
         {

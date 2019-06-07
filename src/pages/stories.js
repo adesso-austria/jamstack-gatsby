@@ -30,7 +30,7 @@ const Stories = () => {
 
     return (
         <Layout>
-            <h1>Stories from <i>@{ stories[0].node.username }</i></h1>
+            <h1><i>@{ stories[0].node.username.toUpperCase() }</i></h1>
             <hr/>
             <br/>
             <div className="stories_gallery">

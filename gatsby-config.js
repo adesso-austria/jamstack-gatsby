@@ -1,6 +1,6 @@
 module.exports = {
    siteMetadata: {
-      title: 'adesso - the great Gatsby',
+      title: 'gatsbyJS Starter',
       titleTemplate: "%s · 2019",
       author: 'Dominik Dorfstetter',
       siteUrl: `https://adesso-js-gatsby.netlify.com/`,

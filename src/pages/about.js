@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const AboutPage = () => {
   return (
     <Layout>
-      <h1>GatsbyJS Starter</h1>
+      <h1>{"gatsbyJS Starter".toUpperCase()}</h1>
       <hr/>
       <p>
         This starter shows (some of) the capabilities of gatsbyJS.
