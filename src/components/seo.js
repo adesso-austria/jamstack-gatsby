@@ -1,3 +1,9 @@
+/**
+ * @author Dominik Dorfstetter
+ * @filename /src/components/seo.js
+ * @version 1.0
+ * @description The SEO component of our Gatsby site
+ */
 import React from 'react'
 import PropTypes from "prop-types"
 import {
@@ -6,6 +12,9 @@ import {
 } from "gatsby"
 import Helmet from 'react-helmet'
 
+/*
+   SEO COMPONENT
+*/
 const SEO = ({
     title,
     description,

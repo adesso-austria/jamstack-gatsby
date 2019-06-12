@@ -1,20 +1,36 @@
+/**
+ * @author Dominik Dorfstetter
+ * @filename /src/components/layout.js
+ * @version 1.0
+ * @description The layout component of our Gatsby site
+ */
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
 import SEO from './seo'
 import '../styles/index.scss'
 
-const Layout = ({ location, children }) => {
-   console.log(location);
+import styles from '../styles/modules/layout.module.scss'
+
+/*
+   LAYOUT COMPONENT
+
+   Glues our site together. In here all the building blocks of our page come together.
+      Building blocks:
+         SEO             : Contains our meta-data, page-title
+         Header          : Our header component
+         .page_wrapper   : The router (our main pages)
+         Footer          : Our footer component
+*/
+const Layout = ({ children }) => {
    return (
       <>
-         <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+         <SEO title="Home" keywords={['gatsby', 'application', 'adesso Austria GmbH']} />
          <Header/>
-         <div className="page_wrapper">
+         <div className={styles.page_wrapper}>
             { children }
          </div>
          <Footer/>
-         <div id="scrollToTop"></div>
       </>
    )
 }

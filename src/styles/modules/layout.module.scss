@@ -1,0 +1,67 @@
+// Utilities
+@import "../utilities/variables";
+
+.page_wrapper {
+    background-color: #fff;
+    background-image:
+        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    min-height: 90vh;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    text-align: justify;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: -50px !important;
+
+    h1 {
+        text-align: center;
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }
+
+    p {
+        line-height: 1.5em;
+
+        a {
+            font-weight: 800;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $accent_color;
+        font-weight: 800;
+        border-bottom: 2px solid $accent_color;
+
+        &:hover {
+            color: $brand_color;
+            border-bottom: 2px solid $brand_color;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding-block-start: 0;
+        padding-block-end: 0;
+        margin-left: -1rem;
+
+        hr {
+            width: 100%;
+            margin-left: -1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page_wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: justify;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import styles from '../styles/modules/stories.module.scss'
 
 const Stories = () => {
     const pageQuery = useStaticQuery(graphql`
@@ -33,11 +34,11 @@ const Stories = () => {
             <h1><i>@{ stories[0].node.username.toUpperCase() }</i></h1>
             <hr/>
             <br/>
-            <div className="stories_gallery">
+            <div className={styles.stories_gallery}>
                 {
                     stories.map((storie) => 
                         (
-                            <Img key={storie.node.id} fixed={storie.node.localFile.childImageSharp.fixed} /> 
+                            <Img className={styles.stories_image} key={storie.node.id} fixed={storie.node.localFile.childImageSharp.fixed} /> 
                         )
                     )
                 }

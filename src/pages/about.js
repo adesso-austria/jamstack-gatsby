@@ -5,10 +5,10 @@ import { Link } from 'gatsby'
 const AboutPage = () => {
   return (
     <Layout>
-      <h1>{"gatsbyJS Starter".toUpperCase()}</h1>
+      <h1>GatsbyJS STARTER</h1>
       <hr/>
       <p>
-        This starter shows (some of) the capabilities of gatsbyJS.
+        This starter shows (some of) the capabilities of GatsbyJS.
       </p>
       <p>
         If you navigate to <Link to="/blog">Blog</Link> you see content generated from a local folder in which I put some Markdown files.

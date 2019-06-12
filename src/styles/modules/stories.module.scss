@@ -1,0 +1,22 @@
+.stories_gallery {
+   display: flex;
+   min-width: 100%;
+   flex-flow: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: auto;
+
+   .stories_image {
+      width: 180px;
+      height: 180px;
+      flex: 1 1 auto;
+      margin: 5px;
+
+      img {
+         background-position: center;
+         background-size: contain;
+      }
+   }
+}
+
+@media only screen and (max-width: 600px) {}
