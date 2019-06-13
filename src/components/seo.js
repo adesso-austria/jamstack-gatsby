@@ -30,7 +30,7 @@ const SEO = ({
                 siteMetadata: {
                     title,
                     titleTemplate,
-                    defaultDescription,
+                    description,
                     siteUrl,
                     socialLinks: {
                         twitter
@@ -40,14 +40,15 @@ const SEO = ({
         }) => {
             const seo = {
                 title: title,
-                description: description || defaultDescription,
-                url: `${siteUrl}${pathname || '/'}`,
+                description: description,
+                siteUrl: siteUrl || 'https://adesso-js-gatsby.netlify.com',
             }
 
+            console.log(seo)
             return (
             <>
                 <Helmet title={seo.title} titleTemplate={titleTemplate}>
-                    <meta name="description" content={seo.description} />
+                    <meta name="Description" content={seo.description} />
                     {seo.url && <meta property="og:url" content={seo.url} />}
                     {(article ? true : null) && (
                     <meta property="og:type" content="article" />
@@ -65,6 +66,8 @@ const SEO = ({
                     {seo.description && (
                     <meta name="twitter:description" content={seo.description} />
                     )}
+
+                    <html lang="en" />
                 </Helmet>
             </>
             )
