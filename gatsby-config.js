@@ -52,6 +52,25 @@ module.exports = {
            defaultQuality: 75,
          }
       },
-      'gatsby-transformer-sharp'
+      'gatsby-transformer-sharp',
+      {
+         resolve: `gatsby-plugin-manifest`,
+         options: {
+           name: `adessoGatsby`,
+           short_name: `adessoGatsby`,
+           start_url: `/`,
+           background_color: `#ffffff`,
+           theme_color: `#f7f0eb`,
+           display: `standalone`,
+           icon: `src/images/icon.png`
+         },
+       }, 
+       {
+         resolve: 'gatsby-plugin-sw',
+         options: {
+           swPath: 'static/sw.js', // Default to 'src/sw.js'
+         },
+       },
+       `gatsby-plugin-offline`
    ]
 }
