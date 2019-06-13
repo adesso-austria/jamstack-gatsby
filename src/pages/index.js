@@ -14,6 +14,7 @@ const IndexPage = () => {
         <br/><br/>
         <small>Do you want to contact <Link to="/contact"> us?</Link></small>
       </p>
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
     </Layout>
   )
 }
