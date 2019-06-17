@@ -44,7 +44,6 @@ const SEO = ({
                 siteUrl: siteUrl || 'https://adesso-js-gatsby.netlify.com',
             }
 
-            console.log(seo)
             return (
             <>
                 <Helmet title={seo.title} titleTemplate={titleTemplate}>

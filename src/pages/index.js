@@ -3,20 +3,6 @@ import {Link} from "gatsby"
 import Layout from "../components/layout"
 
 const IndexPage = () => {
-
-  if (typeof window !== 'undefined') {
-    // is service worker registered?
-    if ('serviceWorker' in window.navigator) {
-      window
-        .navigator
-        .serviceWorker
-        .register('/sw.js')
-        .then(function () {
-          console.log("Service Worker Registered");
-        });
-    }
-  }
-
   return (
     <Layout>
       <h1>WELCOME</h1>
