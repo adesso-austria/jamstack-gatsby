@@ -71,7 +71,6 @@ module.exports = {
          options: {
            swPath: 'static/sw.js', // Default to 'src/sw.js'
          },
-       },
-       `gatsby-plugin-offline`
+       }
    ]
 }

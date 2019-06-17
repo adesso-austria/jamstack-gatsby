@@ -45,8 +45,7 @@ yarn run build
 - gatsby-transformer-sharp | to transform the image depending on screen-size (and many more options
 - gatsby-plugin-zopfli | to enable gZip compression
 - gatsby-plugin-manifest | to make it a PWA
-- gatsby-plugin-sw | to enable service worker
-- gatsby-plugin-offline | to make the site available offine
+- gatsby-plugin-sw | to enable service worker & offline capability
 
 ### Other libraries
 
