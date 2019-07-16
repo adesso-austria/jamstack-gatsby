@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styles from '../styles/modules/stories.module.scss'
 
-const Stories = () => {
+const StoriesPage = () => {
     const pageQuery = useStaticQuery(graphql`
         {
             allInstaNode {
@@ -47,4 +47,4 @@ const Stories = () => {
     )
 }
 
-export default Stories
+export default StoriesPage
