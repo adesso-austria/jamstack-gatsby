@@ -2,6 +2,7 @@
 title: "Classic Ipsum"
 date: "2019-05-09"
 author: "Dominik Dorfstetter"
+excerpt: "Some Classic Ipsum"
 ---
 
 ## This is example content

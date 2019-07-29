@@ -2,6 +2,7 @@
 title: "Client feedback ipsum"
 date: "2019-05-13"
 author: "Dominik Dorfstetter"
+excerpt: "Some Client Ipsum"
 ---
 
 ## We reviewed your latest deploy

@@ -5,7 +5,9 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 const BlogPage = () => {
   const pageQuery = useStaticQuery(graphql`
   {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] },
+    ) {
       totalCount
       edges {
         node {
@@ -14,6 +16,7 @@ const BlogPage = () => {
             title
             author
             date
+            excerpt
           }
           fields {
             slug
@@ -30,7 +33,6 @@ const BlogPage = () => {
   return (
     <Layout>
       <h1>POSTS ({postCount})</h1>
-      <hr/>
       <ul>
         {
           posts.map((elements) => {
@@ -40,7 +42,8 @@ const BlogPage = () => {
               <li key={blog_post.fields.slug}>
                 <h2>{ blog_post.frontmatter.title.toUpperCase() }</h2>
                 <small><b>Author:</b> { blog_post.frontmatter.author }</small><br/>
-                <small><b>Date:</b> { blog_post.frontmatter.date }</small>
+                <small><b>Date:</b> { blog_post.frontmatter.date }</small><br/><br/>
+                <code>{ blog_post.frontmatter.excerpt }</code>
                 <br/>
                 <br/>
                 <Link to={ `blog/${blog_post.fields.slug}` }>read more..</Link>

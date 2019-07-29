@@ -7,6 +7,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styles from '../styles/modules/header.module.scss'
+import SideBar from '../components/sidebar'
 
 /*
    PREDIFINED ROUTES
@@ -35,19 +36,22 @@ const routes = [{
  */
 const Header = () => {
    return (
-      <header className={styles.header}>
-         <nav className={styles.nav}>
-            <ul className={styles.ul}>
-               {
-                  routes.map(page => {
-                     return (<li key={page.title} className={styles.li}>
-                        <Link activeClassName={styles.active} to={page.url.toString()}>{page.title.toUpperCase()}</Link>
-                     </li>)
-                  })
-               }
-            </ul>
-         </nav>
-      </header>
+      <div id="App">
+         <SideBar routes={routes} pageWrapId={"page-wrap"} outerContainerId={"App"} />
+         <header className={styles.header}>
+            <nav className={styles.nav}>
+               <ul className={styles.ul}>
+                  {
+                     routes.map(page => {
+                        return (<li key={page.title} className={styles.li}>
+                           <Link activeClassName={styles.active} to={page.url.toString()}>{page.title.toUpperCase()}</Link>
+                        </li>)
+                     })
+                  }
+               </ul>
+            </nav>
+         </header>
+      </div>
    )
 }
 
