@@ -2,6 +2,7 @@
 title: "Dolar Hipsum"
 date: "2019-05-28"
 author: "Dominik Dorfstetter"
+excerpt: "Some Dolar Ipsum"
 ---
 
 ## Some Hipsum
