@@ -2,7 +2,7 @@
   "name": "adesso-jamstack-gatsby",
   "private": false,
   "description": "A starter for gatsby built for a presentation on jamstack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
